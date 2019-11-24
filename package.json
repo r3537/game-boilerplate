@@ -1,0 +1,71 @@
+{
+  "private": true,
+  "name": "blood-sand",
+  "version": "0.3.0",
+  "description": "© Blood & Sand 2019. All Rights reserved.",
+  "homepage": "https://www.develteam.com/Game/Blood-and-Sand",
+  "bugs": {
+    "url": "https://github.com/blood-sand/blood-sand-game/issues",
+    "email": "l.cattide@email.it"
+  },
+  "license": {
+    "license": "LICENSE"
+  },
+  "main": "src/index.js",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "autoprefixer": "^9.7.2",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "compass-mixins": "^0.12.10",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "extract-text-webpack-plugin": "next",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "midas": "^2.0.3",
+    "node-sass": "^4.13.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-scss": "^2.0.0",
+    "raw-loader": "^3.1.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "sugarss": "^2.0.0",
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack": "^4.41.2",
+    "webpack-bundle-size-analyzer": "^3.1.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-manifest-plugin": "^2.2.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "phaser": "^3.21.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --watch --colors --progress --config webpack.base.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "window": {
+    "width": 800,
+    "height": 600,
+    "title": "Blood & Sand",
+    "resizable": true,
+    "maximizable": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blood-sand/blood-sand-game"
+  },
+  "keywords": [
+    "blood",
+    "sand"
+  ],
+  "author": "Blood & Sand team (https://github.com/blood-sand)"
+}
