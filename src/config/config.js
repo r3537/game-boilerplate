@@ -2,7 +2,6 @@
 // Scene Configuration
 // JS imports
 import Phaser from 'phaser';
-import WebFontLoaderPlugin from '../assets/js/lib/rexwebfontloaderplugin.min';
 
 // Module Export
 export default {
@@ -26,12 +25,5 @@ export default {
   fps: 60,
   dom: {
     createContainer: true
-  },
-  plugins: {
-    global: [{
-      key: 'WebFontLoader',
-      plugin: WebFontLoaderPlugin,
-      start: true
-    }]
   }
 };

@@ -1,7 +1,5 @@
 // Module Start
 // Main
-// SASS Imports
-import './sass/index.scss';
 // JS imports
 import 'phaser';
 import config from './config/config';
