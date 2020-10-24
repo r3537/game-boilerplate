@@ -9,9 +9,9 @@ Thumbs.db
 .editorconfig
 .vscode
 # Vendors
-node_modules/
+/node_modules
 # Cache
 .sass-cache
 # Build
-dist/
+/dist
 /npm-debug.log
